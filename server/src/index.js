@@ -23,6 +23,7 @@ app.use(
     origin: allowedOrigin === "*" ? true : allowedOrigin
   })
 );
+
 app.use(express.json({ limit: "64kb" }));
 
 app.get("/", (_req, res) => {
