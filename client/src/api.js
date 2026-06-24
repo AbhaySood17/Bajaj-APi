@@ -1,4 +1,5 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:8080";
+const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL || "https://bajaj-api-n6t8.onrender.com";
 
 export const submitEdges = async (items) => {
   const response = await fetch(`${API_BASE_URL}/bfhl`, {
@@ -15,3 +16,4 @@ export const submitEdges = async (items) => {
 
   return response.json();
 };
+
