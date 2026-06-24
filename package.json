@@ -1,0 +1,13 @@
+{
+  "name": "chitkara-hierarchy-round1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MERN-style solution for the Chitkara Round 1 hierarchy API challenge.",
+  "scripts": {
+    "dev": "node server/src/index.js",
+    "test": "node server/tests/hierarchyEngine.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
