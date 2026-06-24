@@ -1,5 +1,5 @@
 import { AlertTriangle, GitBranch, Loader2, Network, Send } from "lucide-react";
-import { useMemo, useState } from "react";
+import React, { useMemo, useState } from "react";
 import { submitEdges } from "./api.js";
 
 const sampleInput = `A->B
